@@ -111,7 +111,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       factory: function AppRoutingModule_Factory(t) {
         return new (t || AppRoutingModule)();
       },
-      imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"]]
+      imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(routes, {
+        useHash: true
+      })], _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"]]
     });
 
     (function () {
@@ -127,7 +129,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵsetClassMetadata"](AppRoutingModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"],
         args: [{
-          imports: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(routes)],
+          imports: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"].forRoot(routes, {
+            useHash: true
+          })],
           exports: [_angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterModule"]]
         }]
       }], null, null);
