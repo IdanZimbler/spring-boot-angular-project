@@ -1,4 +1,3 @@
-# spring-boot-angular-assignment
 
 # Run locally
 http://localhost:8080/
