@@ -1,13 +1,14 @@
 # spring-boot-angular-assignment
 
+# Run locally
+http://localhost:8080/
+
 # h2 database
 For accessing h2 database, navigate to- http://localhost:8080/h2-console
 
 # Swagger
 For accessing swagger, navigate to- http://localhost:8080/swagger-ui.html.
 
-# Run locally
-http://localhost:8080/
 
 # Run through docker
 
